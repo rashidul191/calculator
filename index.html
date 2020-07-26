@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script>
+
+        function calculator (x){
+            form.display.value = form.display.value + x ;
+        }
+    </script>
+   
+</head>
+<body>
+   <div class="calculator-body">
+       <form action="">
+             <input class="form-control main-bar" type="text" name="display" value="0">
+
+        <div class="btn-area">
+            <div class="line">
+                <input type="button" value="7" class="btn btn-primary" onclick="calculator (this.value)" >
+                <input type="button" value="8" class="btn btn-primary" onclick="calculator (this.value)">
+                <input type="button" value="9" class="btn btn-primary">
+                <input type="button" value="/" class="btn btn-warning">
+           </div>
+           <div class="line">
+                <input type="button" value="4" class="btn btn-primary">
+                <input type="button" value="5" class="btn btn-primary">
+                <input type="button" value="6" class="btn btn-primary">
+                <input type="button" value="*" class="btn btn-warning">
+            </div>
+            <div class="line">
+                <input type="button" value="1" class="btn btn-primary">
+                <input type="button" value="2" class="btn btn-primary">
+                <input type="button" value="3" class="btn btn-primary">
+                <input type="button" value="-" class="btn btn-warning">
+             </div>
+             <div class="line">
+                <input type="button" value="0" class="btn btn-primary">
+                <input type="button" value="00" class="btn btn-primary">
+                <input type="button" value="." class="btn btn-primary">
+                <input type="button" value="+" class="btn btn-warning">
+             </div>
+             <div class="last">
+                <input type="button" value="C" class="btn btn-warning">
+                <input type="button" value="=" class="btn btn-warning">
+             </div>
+
+        </div>
+     </form>
+   </div>
+   
+   
+</body>
+</html>
